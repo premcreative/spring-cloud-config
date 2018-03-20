@@ -1,3 +1,10 @@
 # YMl file.
 ---
-lucky-word:United States
+spring:
+  profile: west
+lucky-word: California
+
+---
+spring:
+  profile: East 
+lucky-word: Minnesota
