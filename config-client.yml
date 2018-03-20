@@ -1,10 +1,10 @@
 # YMl file.
 ---
 spring:
-  profile: west
+  profiles: west
 lucky-word: California
 
 ---
 spring:
-  profile: East 
+  profiles: East 
 lucky-word: Minnesota
