@@ -1,0 +1,27 @@
+# YMl file.
+---
+spring:
+  profiles: DEV
+lucky-word: Prem Singh
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+
+---
+spring:
+  profiles: QA 
+lucky-word: Pat Ottamn
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+      
+---
+spring:
+  profiles: PROD 
+lucky-word: Dan Depolis
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
