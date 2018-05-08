@@ -1,7 +1,7 @@
 # YMl file.
 ---
 spring:
-  profiles: west
+  profiles: DEV
 lucky-word: California
 eureka: 
   client:
@@ -10,7 +10,7 @@ eureka:
 
 ---
 spring:
-  profiles: East 
+  profiles: QA 
 lucky-word: New York
 eureka: 
   client:
@@ -19,7 +19,7 @@ eureka:
       
 ---
 spring:
-  profiles: Midwest 
+  profiles: PROD 
 lucky-word: Minnesota
 eureka: 
   client:
