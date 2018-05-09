@@ -2,7 +2,7 @@
 ---
 spring:
   profiles: DEV
-lucky-word: California
+lucky-word: Moneygram.com
 eureka: 
   client:
     serviceUrl:
