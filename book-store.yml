@@ -1,0 +1,29 @@
+# YMl file.
+---
+spring:
+  profiles: DEV
+  url:
+   book-store-url: http://localhost:8090
+   customer-url: http://localhost:8091
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+
+---
+spring:
+  profiles: QA 
+lucky-word: New York
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
+      
+---
+spring:
+  profiles: PROD 
+lucky-word: Minnesota
+eureka: 
+  client:
+    serviceUrl:
+      defaultZone: ${vcap.services.eureka-service.credentials.uri:http://127.0.0.1:8761}/eureka/
