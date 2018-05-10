@@ -2,9 +2,7 @@
 ---
 spring:
   profiles: DEV
-  url:
-   book-store-url: http://localhost:8090
-   customer-url: http://localhost:8091
+  book-name: Spring Boot 1.x  Microservices
 eureka: 
   client:
     serviceUrl:
@@ -13,7 +11,7 @@ eureka:
 ---
 spring:
   profiles: QA 
-lucky-word: New York
+ book-name: Spring Boot 2.x  Microservices
 eureka: 
   client:
     serviceUrl:
