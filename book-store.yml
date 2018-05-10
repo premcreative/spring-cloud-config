@@ -2,7 +2,7 @@
 ---
 spring:
   profiles: DEV
-  book-name: Spring Boot 1.x  Microservices
+book-name: Spring Boot 1.x  Microservices
 eureka: 
   client:
     serviceUrl:
@@ -11,7 +11,7 @@ eureka:
 ---
 spring:
   profiles: QA 
- book-name: Spring Boot 2.x  Microservices
+book-name: Spring Boot 2.x  Microservices
 eureka: 
   client:
     serviceUrl:
