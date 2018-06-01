@@ -2,7 +2,7 @@
 ---
 spring:
   profiles: DEV
-book-name: test Spring Boot 1.x  Microservices
+book-name: Live Demo Spring Boot 1.x  Microservices
 eureka: 
   client:
     serviceUrl:
